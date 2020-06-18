@@ -1,0 +1,93 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .lessons {
+        flex-wrap: wrap;
+    }
+
+    .lesson {
+        margin-top: 10px;
+        width: 50%;
+    }
+
+    .tims {
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    .tim {
+        flex: auto;
+        margin-right: 45px;
+        margin-left: 45px;
+        margin-bottom: 45px;
+        width: 30%;
+    }
+
+    .text-ctn {
+        margin: 0 auto;
+    }
+
+    .top-wrapper h1 {
+        font-size: 30px;
+    }
+
+    .heading h2 {
+        font-size: 20px;
+    }
+
+    .headinge h2 {
+        font-size: 20px;
+    }
+}
+
+/*untuk Smartphone*/
+@media all and (max-width: 670px) {
+
+    .btn {
+        width: 100%;
+    }
+
+    .google {
+        margin-top: 10px;
+    }
+
+    /* Tambahkan CSS untuk header-right */
+    .header-right {
+        display: none;
+    }
+
+    /* Tambahkan CSS untuk menu-icon */
+    .menu-icon {
+        margin-right: 5px;
+        display: block;
+    }
+
+    .lessons {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .lesson {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .text-contents {
+        display: inline-block;
+        margin: 5px 10px 25px 10px;
+    }
+
+    .tims {
+        flex-direction: column;
+    }
+
+    .tim {
+        margin: 0 auto;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    footer {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
